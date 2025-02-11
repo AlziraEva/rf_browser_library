@@ -1,6 +1,7 @@
 *** Settings ***
 Resource    ../resources/serve-rest-front.resource
 Test Setup    Abrir o navegador
+Suite Teardown    Close Browser    ALL
 
 
 *** Test Cases ***
