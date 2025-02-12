@@ -22,7 +22,7 @@ ${INPUT_CADASTRAR_DESCRICAO_PRODUTO}     textarea[data-testid="descricao"]
 ${INPUT_CADASTRAR_QUANTIDADE_PRODUTO}    input[data-testid="quantity"]
 ${INPUT_CADASTRAR_IMAGEM_PRODUTO}        input[data-testid="imagem"]
 ${BOTAO_SUBMETER_CADASTRO_PRODUTO}       button[data-testid="cadastarProdutos"]
-${CAMINHO_IMAGEM}                        ../assets/image.png
+${CAMINHO_IMAGEM}                        ${EXECDIR}/assets/image.png
 
 *** Keywords ***
 Abrir o navegador
